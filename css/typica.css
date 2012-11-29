@@ -144,28 +144,41 @@ blockquote p {
   width: auto;
 }
 .navbar .navbar-inner {
-  background: white;
   filter: none;
   height: 80px;
+  
+background-image: linear-gradient(bottom, rgb(61,61,61) 0%, rgb(3,3,3) 100%);
+background-image: -o-linear-gradient(bottom, rgb(61,61,61) 0%, rgb(3,3,3) 100%);
+background-image: -moz-linear-gradient(bottom, rgb(61,61,61) 0%, rgb(3,3,3) 100%);
+background-image: -webkit-linear-gradient(bottom, rgb(61,61,61) 0%, rgb(3,3,3) 100%);
+background-image: -ms-linear-gradient(bottom, rgb(61,61,61) 0%, rgb(3,3,3) 100%);
+
+background-image: -webkit-gradient(
+	linear,
+	left bottom,
+	left top,
+	color-stop(0, rgb(61,61,61)),
+	color-stop(1, rgb(3,3,3))
+);
 }
 .navbar .nav {
   margin-top: 20px;
 }
 .navbar .nav > li > a {
-  color: #333;
+  color: #eeeeee;
   padding: 10px 10px 11px;
   text-shadow: none;
 }
 .navbar .nav > li > a:hover {
-  color: #111;
+  color: #c63733;
 }
 .navbar .nav > li.active > a {
   background: none;
-  color: #111;
+  color: #c63733;
 }
 .navbar .nav > li.active > a:hover {
   background: none;
-  color: #111;
+  color: #c63733;
 }
 
 /* ########## */
@@ -176,7 +189,7 @@ blockquote p {
 }
 .carousel .item {
   width: 100%;
-  max-height: 600px;
+  max-height: 500px;
 }
 .carousel .item img {
   width: 100%;
