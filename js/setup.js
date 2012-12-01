@@ -6,6 +6,9 @@ jQuery(document).ready(function($) {
 
 	// Setting variables
 	$home_carousel = $('#myCarousel');
+	$('.carousel').carousel({
+  interval: 5000
+})
 
 	// Setting up homepage carousel
 	$home_carousel.carousel({

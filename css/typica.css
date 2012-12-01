@@ -99,8 +99,8 @@ blockquote p {
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   padding: 0;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
 }
 .circle-thumbnail img {
   width: 100%;
@@ -131,7 +131,7 @@ blockquote p {
   color: #555;
 }
 .hero-unit .pink {
-  color: #c33;
+  color: #3F3FE4;
 }
 
 /* ########### */
