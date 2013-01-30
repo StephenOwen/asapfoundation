@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
 	// Setting variables
 	$home_carousel = $('#myCarousel');
 	$('.carousel').carousel({
-  interval: 5000
+  interval: 4000
 })
 
 	// Setting up homepage carousel
@@ -75,7 +75,7 @@ $(function() {
 
     // finally, call quicksand
     $applications.quicksand($filteredData, {
-      duration: 800,
+      duration: 0,
       easing: 'easeInOutQuad'
     });
 

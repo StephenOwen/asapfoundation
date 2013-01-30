@@ -199,9 +199,24 @@ a:hover {
           border-radius: 500px;
 }
 
+.hr {
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+    background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
 .row {
   margin-left: -20px;
   *zoom: 1;
+}
+
+#main {
+ margin:0 auto;
+ float:none;
 }
 
 .row:before,
@@ -793,12 +808,6 @@ dd {
   margin-left: 180px;
 }
 
-hr {
-  margin: 20px 0;
-  border: 0;
-  border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #ffffff;
-}
 
 abbr[title],
 abbr[data-original-title] {
