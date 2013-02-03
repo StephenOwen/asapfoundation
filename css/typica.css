@@ -313,6 +313,11 @@ background-image: -webkit-gradient(
 .contact-info {
   text-align: center;
 }
+#mc_embed_signup{
+background:; 
+clear:left; 
+font:14px Helvetica,Arial,sans-serif; 
+}
 
 /* ######## */
 /* $FOOTER  */
